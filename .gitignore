@@ -1,0 +1,52 @@
+# =========================================
+# 안드로이드 스튜디오 및 Gradle 관련 파일
+# =========================================
+
+# 빌드 과정에서 생성되는 파일들 (가장 중요!)
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+/build/
+/*/build/
+
+# 로컬 환경 설정 파일 (API 키 등 민감한 정보가 있을 수 있어 공유하면 안 됨)
+local.properties
+
+# Gradle 관련 파일
+.gradle/
+build-cache/
+
+# 안드로이드 스튜디오 IDE 관련 설정 파일
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+*.ipr
+*.iws
+*.nav_configuration
+# 안드로이드 스튜디오 4.2 이상부터는 .idea 폴더 전체를 무시하는 것을 권장
+# .idea/
+
+# 서명키 파일 (유출되면 절대 안 됨!)
+*.jks
+*.keystore
+
+# 구글 서비스 관련 파일 (다른 개발자와 공유할 필요 없음)
+google-services.json
+
+# 네이티브 빌드 관련 파일
+.cxx/
+*.so
+
+# Lint(코드 분석 도구) 결과물
+lint/reports/
+
+# 기타 캡처 및 임시 파일
+captures/
+output/
+.DS_Store

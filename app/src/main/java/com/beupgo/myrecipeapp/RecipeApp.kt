@@ -31,6 +31,7 @@ fun RecipeApp(innerPadding: PaddingValues, navController: NavHostController) {
                 .previousBackStackEntry
                 ?.savedStateHandle
                 ?.get<Category>("cat") ?: Category("", "", "", "")
+            CategoryDetailScreen(category = category)
         }
     }
 }

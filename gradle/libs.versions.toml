@@ -10,6 +10,7 @@ activityCompose = "1.11.0"
 composeBom = "2024.09.00"
 retrofit = "3.0.0"
 coil = "2.7.0"
+navigation = "2.9.5"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +31,11 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+# Jetpack Compose에서 화면 간 이동을 관리하는 Navigation 라이브러리입니다.
+# group: 라이브러리를 만든 조직 (androidx.navigation)
+# name: 라이브러리 이름 (navigation-compose)
+# version.ref: 위에서 정의한 버전 별칭 (navigation)
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
 
 # 서버와 통신을 쉽게 할 수 있도록 도와주는 HTTP 클라이언트 라이브러리입니다.
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }

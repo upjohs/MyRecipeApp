@@ -92,6 +92,9 @@ dependencies {
     // 인터넷에 있는 이미지를 화면에 간편하게 보여줄 수 있게 해주는 Coil 라이브러리입니다.
     implementation(libs.coil.compose)
 
+    // ⬇️ Jetpack Compose를 위한 Navigation 라이브러리를 추가합니다.
+    //    이 라이브러리를 통해 앱의 화면(Composable) 간 이동을 쉽게 구현할 수 있습니다.
+    implementation(libs.androidx.navigation.compose)
 
     // ------------------- 테스트 관련 라이브러리 ------------------- //
 
